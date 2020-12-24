@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0478E5B2594D595004E0E69 /* ENVGadgetFW.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A0478E5A2594D595004E0E69 /* ENVGadgetFW.podspec */; };
 		A050FF082403B78E0075DC41 /* ENVGadgetFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050FF072403B78E0075DC41 /* ENVGadgetFWTests.swift */; };
 		A050FF0A2403B78E0075DC41 /* ENVGadgetFW.h in Headers */ = {isa = PBXBuildFile; fileRef = A050FEFC2403B78E0075DC41 /* ENVGadgetFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A050FF152403BAAE0075DC41 /* ENVGadgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050FF132403BAAE0075DC41 /* ENVGadgetManager.swift */; };
 		A050FF162403BAAE0075DC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050FF142403BAAE0075DC41 /* ViewController.swift */; };
+		A0E0E54F2594F45A00694318 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A0E0E54E2594F45A00694318 /* README.md */; };
+		A0E0E5532594F46100694318 /* ENVGadgetFW.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A0E0E5522594F46100694318 /* ENVGadgetFW.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A0478E5A2594D595004E0E69 /* ENVGadgetFW.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ENVGadgetFW.podspec; sourceTree = "<group>"; };
 		A050FEF92403B78E0075DC41 /* ENVGadgetFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ENVGadgetFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A050FEFC2403B78E0075DC41 /* ENVGadgetFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENVGadgetFW.h; sourceTree = "<group>"; };
 		A050FEFD2403B78E0075DC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		A050FF092403B78E0075DC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A050FF132403BAAE0075DC41 /* ENVGadgetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENVGadgetManager.swift; sourceTree = "<group>"; };
 		A050FF142403BAAE0075DC41 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0E0E54E2594F45A00694318 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A0E0E5522594F46100694318 /* ENVGadgetFW.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ENVGadgetFW.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,8 @@
 		A050FEEF2403B78E0075DC41 = {
 			isa = PBXGroup;
 			children = (
+				A0E0E5522594F46100694318 /* ENVGadgetFW.podspec */,
+				A0E0E54E2594F45A00694318 /* README.md */,
 				A050FEFB2403B78E0075DC41 /* ENVGadgetFW */,
 				A050FF062403B78E0075DC41 /* ENVGadgetFWTests */,
 				A050FEFA2403B78E0075DC41 /* Products */,
@@ -86,7 +90,6 @@
 			children = (
 				A050FEFC2403B78E0075DC41 /* ENVGadgetFW.h */,
 				A0478E5E2594DCC8004E0E69 /* Classes */,
-				A0478E5A2594D595004E0E69 /* ENVGadgetFW.podspec */,
 				A050FEFD2403B78E0075DC41 /* Info.plist */,
 			);
 			path = ENVGadgetFW;
@@ -194,7 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0478E5B2594D595004E0E69 /* ENVGadgetFW.podspec in Resources */,
+				A0E0E54F2594F45A00694318 /* README.md in Resources */,
+				A0E0E5532594F46100694318 /* ENVGadgetFW.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
