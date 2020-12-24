@@ -54,12 +54,20 @@ The JSON file begins with the list object that includes all child lists. The chi
 
 Drag and drop the downloaded framework to project root directory
 
+or
+```
+pod 'ENVGadgetFW', '~> 1.1'
+
+```
+
+
 And then import framework like below
 
 ```
 import ENVGadgetFW
 
 ```
+
 
 In-home or main controller call the singleton method below
 ```
@@ -69,6 +77,11 @@ ENVGadgetManager.shared.adjustGadget()
 if you want the selected row's value, you can call the singleton method below by the row's key
 ```
 let selectedServiceURLs = ENVGadgetManager.shared.getValueBy(key: "Service URLs")
+```
+
+and listening changes with completion handler
+```
+ENVGadgetManager.shared.hasChangedEnviromentCompletion = {}
 ```
 
 # Usage
