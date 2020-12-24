@@ -48,5 +48,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/batikansosun/ENVGadgetFW.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "Classes**/*.{swift}"
+  spec.source_files  = "ENVGadgetFW", "ENVGadgetFW/**/*.{h,m,swift}"
 end
