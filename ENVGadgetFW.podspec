@@ -27,14 +27,14 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    ENV Gadget is a framework that helps you to easily manage the service end-points, service keys and other constants.
                          DESC
-  spec.homepage     = "https://github.com/batikansosun/Environment_Gadget"
+  spec.homepage     = "https://github.com/batikansosun/ENVGadgetFW"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   spec.ios.deployment_target = "10.0"
   spec.swift_version = "4.0"
 
   spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
 
@@ -45,7 +45,7 @@ Pod::Spec.new do |spec|
   # spec.social_media_url   = "https://twitter.com/batikansosun"
 
 
-  spec.source       = { :git => "https://github.com/batikansosun/Environment_Gadget.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/batikansosun/ENVGadgetFW.git", :tag => "#{spec.version}" }
 
 
   spec.source_files  = "Classes**/*.{swift}"
