@@ -79,6 +79,11 @@ if you want the selected row's value, you can call the singleton method below by
 let selectedServiceURLs = ENVGadgetManager.shared.getValueBy(key: "Service URLs")
 ```
 
+and listening changes with completion handler
+```
+ENVGadgetManager.shared.hasChangedEnviromentCompletion = {}
+```
+
 # Usage
 The framework selection interface is using with a swipe gesture recognizer. This swipe direction should be the right direction and by the two fingers. The Recognizer work anywhere in the app.
 
