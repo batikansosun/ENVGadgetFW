@@ -54,12 +54,20 @@ The JSON file begins with the list object that includes all child lists. The chi
 
 Drag and drop the downloaded framework to project root directory
 
+or
+```
+pod 'ENVGadgetFW', '~> 1.1'
+
+```
+
+
 And then import framework like below
 
 ```
 import ENVGadgetFW
 
 ```
+
 
 In-home or main controller call the singleton method below
 ```
