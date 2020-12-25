@@ -14,7 +14,7 @@ Add your project root directory to the config file named data.json. This file co
 
 # Configuration Structure
 
-The JSON file begins with the list object that includes all child lists. The child list item has three params. These are key, value and selected.
+The JSON file(data.json) begins with the list object that includes all child lists. The child list item has three params. These are key, value and selected.
 
 <b>the key keep readable row name,</b>
 <b>the value keep row value,</b>
