@@ -30,8 +30,6 @@ public enum ReturnType{
 }
 
 
-
-
 public class ENVGadgetManager:NSObject {
     
     private override init (){}
@@ -66,10 +64,6 @@ public class ENVGadgetManager:NSObject {
             viewController.modalPresentationStyle = .fullScreen
             topVC.present(viewController, animated: true, completion: nil)
         }
-        
-        
-        
-        
     }
     
     func gesture() {
