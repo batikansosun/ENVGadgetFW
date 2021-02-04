@@ -249,3 +249,16 @@ extension UIView {
     return self.bottomAnchor
   }
 }
+
+extension UIApplication{
+    static func topViewController() -> UIViewController? {
+        let keyWindow = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+        if var topViewController = keyWindow?.rootViewController {
+            while let presentedViewController = topViewController.presentedViewController {
+                topViewController = presentedViewController
+            }
+            return  topViewController
+        }
+        return nil
+    }
+}

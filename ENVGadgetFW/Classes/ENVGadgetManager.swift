@@ -62,30 +62,9 @@ public class ENVGadgetManager:NSObject {
         viewController.delegate = self
         viewController.listObject = list
         
-        if #available(iOS 13, *) {
-            let keyWindow = UIApplication.shared.connectedScenes
-                .filter({$0.activationState == .foregroundActive})
-                .map({$0 as? UIWindowScene})
-                .compactMap({$0})
-                .first?.windows
-                .filter({$0.isKeyWindow}).first
-            
-            guard let rootVC = keyWindow?.rootViewController else {
-                return
-            }
-            rootVC.present(viewController, animated: true, completion: nil)
-            
-        } else {
-            
-            let delegate = UIApplication.shared.delegate
-            
-            guard let window = delegate?.window else {
-                return
-            }
-            guard let rootVC = window?.rootViewController else {
-                return
-            }
-            rootVC.present(viewController, animated: true, completion: nil)
+        if let topVC = UIApplication.topViewController() {
+            viewController.modalPresentationStyle = .fullScreen
+            topVC.present(viewController, animated: true, completion: nil)
         }
         
         
